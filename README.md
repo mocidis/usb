@@ -1,7 +1,5 @@
 # usb
-- caption: Test program
-  domain: C
-  body: |
+# Test program
 
         #include "ansi-utils.h"
         #include <stdio.h>

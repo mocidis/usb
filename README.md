@@ -2,10 +2,9 @@
 - caption: Test program
   domain: C
   body: |
-        #include "ansi-utils.h"
-        //#include "my-usb-utils.h"
-        #include <stdio.h>
 
+        #include "ansi-utils.h"
+        #include <stdio.h>
         void usage() {
             printf("test-usb <usb-idx> [options]\n\toptions:\n\t\t- 1: turn on\n\t\t- 0: turn off\n");
         }
